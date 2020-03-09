@@ -1,0 +1,263 @@
+body{
+    font-family: 'Black And White Picture', sans-serif;
+}
+header{
+    background-color:  #f5cba7;
+    text-align: right;
+
+}
+
+header figure{
+    float: left;
+    margin-left: 100px;
+}
+
+header figure img{
+    width: 70px;
+    height: 70px;
+}
+
+header h1{
+    padding: 0px;
+    font-size: 1.6em;
+    float: left;
+    display: block;
+    
+}
+header nav ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    list-style: none;
+}
+
+header nav ul li{
+    height: 35px;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid green;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px;
+}
+
+section article.producto1{
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    border-radius: 0px 0px 15px 15px;
+    margin: 50px 0px 20px 10%;
+    width: 85%;
+    font-size: 1.2em;
+
+}
+
+section article.producto1 figure{
+    float: left;
+    margin-top: -20px;
+    margin-left: -35px;
+    
+}
+
+section article.producto1 figure img{
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    width: 180px;
+    height: 140px;
+}
+section article.producto1 div{
+    width: 90%;
+    margin: 30px 4% 10px 5%;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    padding-top: 20px;
+    font-size: 0.9em;
+    border-radius: 15px;
+} 
+
+section article.producto1 div span{
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    line-height: 20px;
+    border-radius: 15px;
+    text-decoration: underline;
+    background-color: white;
+    padding: 3px 10px;
+}
+section article.producto1 div ul{
+    list-style: none;
+    margin: 0px;
+    padding: opx;
+}
+section article.producto1 div ul li{
+    font-weight: bolder;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 5px 3%;
+    width: 26%    ;
+}
+section article.producto1 h2{
+    padding: 0px;
+    text-align: right;
+    margin: 15px 20px 0px 165px;
+    font-size: 1.2em;
+}
+
+section article.producto1 p{
+    font-size: 0.8em;
+    text-align: justify;
+    margin: 15px 10px 5px 30px;
+}
+
+
+section article.producto1 span.tipo{
+    position: absolute;
+    border-width: 2px;
+    border-style: solid;
+    top: -38px;
+    right: -2px;
+    height: 30px;
+    line-height: 30px;
+    padding: 2px 10px;
+    border-radius: 15px 15px 0px 0px;
+    font-weight: bolder;
+}
+
+/***************************************/
+/***********COLORES DESAYUNO************/
+/***************************************/
+
+
+section article.desayuno,
+section article.desayuno figure img,
+section article.desayuno div,
+section article.desayuno span.tipo{
+    border-color: #154419;
+    color: white;
+}
+
+section article.desayuno h2{
+    color: #154419;
+}
+
+section article.desayuno span.tipo,
+section article.desayuno div,
+section article.desayuno div span{
+    background-color: #154419;
+}
+
+section article.desayuno p{
+    color: #3E7242;
+}
+
+section article.desayuno{
+    background-color: #C0EE90;
+}
+
+section article.desayuno div span,
+section article.desayuno div ul li{
+    color: #9CD95C;
+}
+
+/***************************************/
+/***********COLORES REFRIGERIOS************/
+/***************************************/
+
+
+section article.refrigerios,
+section article.refrigerios figure img,
+section article.refrigerios div,
+section article.refrigerios span.tipo{
+    border-color: #0431B4;
+    color: white;
+}
+
+section article.refrigerios h2{
+    color: #0431B4;
+}
+
+section article.refrigerios span.tipo,
+section article.refrigerios div,
+section article.refrigerios div span{
+    background-color: #0431B4;
+}
+
+section article.refrigerios p{
+    color: #0174DF;
+}
+
+section article.refrigerios{
+    background-color: #58ACFA;
+}
+
+section article.refrigerios div span,
+section article.refrigerios div ul li{
+    color: #58ACFA;
+}
+
+/***************************************/
+/***********COLORES DESAYUNO************/
+/***************************************/
+
+
+section article.desayuno,
+section article.desayuno figure img,
+section article.desayuno div,
+section article.desayuno span.tipo{
+    border-color: #154419;
+    color: white;
+}
+
+section article.desayuno h2{
+    color: #154419;
+}
+
+section article.desayuno span.tipo,
+section article.desayuno div,
+section article.desayuno div span{
+    background-color: #154419;
+}
+
+section article.desayuno p{
+    color: #3E7242;
+}
+
+section article.desayuno{
+    background-color: #C0EE90;
+}
+
+section article.desayuno div span,
+section article.desayuno div ul li{
+    color: #9CD95C;
+}
+
+@media screen and (min-width: 480px){
+    header nav ul li{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 767px){
+    header nav ul li{
+        width: 11%;
+    }
+    section article.producto1{
+        width: 25%;
+        margin: 50px 1% 20px 5%;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    section article.producto1{
+        width: 26%;
+        margin: 50px 1% 20px 5%;
+    }
+}
